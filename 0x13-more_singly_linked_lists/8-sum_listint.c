@@ -1,8 +1,9 @@
+#include "lists.h"
+
 /*
- * sum_listint - Calculates the total of a listint_t list
+ *    sum_listint - Calculates the total of a listint_t list
  * @head: Linked list's first node
- *
- * Retuurns: Sum of the results
+ * Return: Sum of the results
  */
 int sum_listint(listint_t *head)
 {
@@ -17,4 +18,3 @@ int sum_listint(listint_t *head)
 
 	return (sum);
 }
-
